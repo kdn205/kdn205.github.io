@@ -1,0 +1,44 @@
+/* Week 4 CSS */
+tieu_de_phu {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+nav#topmenu ul {
+    list-style-type: none;
+    background-color: blue;
+    text-align: center ;
+    padding: 0;
+    margin: 0;
+}
+nav#topmenu ul li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 20px
+}
+nav#topmenu a{
+    text-decoration: none;
+    color: white;
+}
+
+article > p {
+    font-size: medium;
+    font-weight: normal;
+    font-style: italic;
+}
+nav ul li a:hover {
+    color: rgb(red, green, blue);
+    background-color : red;
+}
+
+article header:hover {
+    color : green;
+    font-size: large;
+}
