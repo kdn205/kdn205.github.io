@@ -1,0 +1,10 @@
+div.container p {
+    color : green;
+    font-size : 12px;
+}
+
+.container li {
+    color : rgb(0, 0, 255);
+    font-size : 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+}
