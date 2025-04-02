@@ -11,19 +11,17 @@
     font-weight: bold;
 }
 .ProductPrice {
-    font-size: italic;
+    font-style: italic;
 }
 .ProductPrice::before {
     content: " - ";
 }
 .Product {
-    display: flex;
-    justify-content: space-between;
     text-align: center;
     width: 150px;
     margin: 0px 20px;
     float: left;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .Product:hover .ProductDetails{
