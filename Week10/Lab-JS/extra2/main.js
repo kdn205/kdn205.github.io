@@ -12,4 +12,4 @@ else {
     alert("Result is :\n" +
         "Area of the circle " + "*" + x + "*" + x  + PI + " = " + Area);
 }
-
+    
