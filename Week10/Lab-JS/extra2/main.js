@@ -8,8 +8,8 @@ else {
     var Perimeter = 2 * PI * parseFloat(x);
     alert("Result is :\n" +
         "Perimeter of the circle " + "2*" + PI + "*" + x + " = " + Perimeter);
+
     var Area = PI * parseFloat(x) * parseFloat(x);
     alert("Result is :\n" +
         "Area of the circle " + "*" + x + "*" + x  + PI + " = " + Area);
 }
-    

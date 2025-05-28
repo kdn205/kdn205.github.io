@@ -15,4 +15,5 @@ function play() {
     timer = settimeout("play()", 1000);
                 
 }
+
 function stop() {clearTimeout(timer);}
